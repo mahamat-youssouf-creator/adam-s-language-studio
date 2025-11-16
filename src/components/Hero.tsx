@@ -23,17 +23,17 @@ const Hero = () => {
           {/* Left Content */}
           <div className="animate-fade-in-up">
             <div className="inline-block mb-4 px-4 py-2 bg-accent/10 rounded-full">
-              <span className="text-accent font-semibold">🎓 Basé à Londres</span>
+              <span className="text-accent font-semibold">🎓 Based in London</span>
             </div>
             
             <h1 className="font-heading text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-              Maîtrisez l'<span className="text-primary">Arabe</span> et l'
-              <span className="text-accent">Anglais</span> avec un Professeur Expérimenté
+              Master <span className="text-primary">Arabic</span> and{" "}
+              <span className="text-accent">English</span> with an Experienced Teacher
             </h1>
             
             <p className="text-lg text-muted-foreground mb-8 max-w-xl">
-              Cours personnalisés adaptés à votre niveau et vos objectifs. Apprenez avec
-              confiance grâce à une méthode éprouvée et des résultats garantis.
+              Personalized courses adapted to your level and goals. Learn with
+              confidence through a proven method and guaranteed results.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 mb-12">
@@ -42,7 +42,7 @@ const Hero = () => {
                 size="xl"
                 onClick={() => scrollToSection("contact")}
               >
-                Réserver un Cours Gratuit
+                Book a Free Lesson
                 <ArrowRight className="ml-2" />
               </Button>
               <Button
@@ -50,7 +50,7 @@ const Hero = () => {
                 size="xl"
                 onClick={() => scrollToSection("services")}
               >
-                Découvrir les Services
+                Discover Services
               </Button>
             </div>
 
@@ -61,14 +61,14 @@ const Hero = () => {
                   <Calendar className="text-accent" size={24} />
                 </div>
                 <div className="font-bold text-2xl text-foreground">10+</div>
-                <div className="text-sm text-muted-foreground">Années d'expérience</div>
+                <div className="text-sm text-muted-foreground">Years Experience</div>
               </div>
               <div className="text-center">
                 <div className="flex items-center justify-center mb-2">
                   <Users className="text-accent" size={24} />
                 </div>
                 <div className="font-bold text-2xl text-foreground">500+</div>
-                <div className="text-sm text-muted-foreground">Élèves formés</div>
+                <div className="text-sm text-muted-foreground">Students Taught</div>
               </div>
               <div className="text-center">
                 <div className="flex items-center justify-center mb-2">
@@ -82,7 +82,7 @@ const Hero = () => {
                   <Award className="text-accent" size={24} />
                 </div>
                 <div className="font-bold text-2xl text-foreground">98%</div>
-                <div className="text-sm text-muted-foreground">Taux de réussite</div>
+                <div className="text-sm text-muted-foreground">Success Rate</div>
               </div>
             </div>
           </div>
@@ -90,10 +90,10 @@ const Hero = () => {
           {/* Right Image */}
           <div className="relative lg:block animate-fade-in-up">
             <div className="relative">
-              <div className="absolute -inset-4 gradient-gold opacity-20 blur-3xl rounded-full"></div>
+              <div className="absolute -inset-4 gradient-cyan opacity-20 blur-3xl rounded-full"></div>
               <img
                 src={heroImage}
-                alt="Adam Mahamat - Professeur de langues"
+                alt="Adam Mahamat - Language Teacher"
                 className="relative rounded-3xl shadow-large w-full object-cover"
               />
             </div>
