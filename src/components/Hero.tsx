@@ -15,8 +15,13 @@ const Hero = () => {
       id="hero"
       className="relative min-h-screen flex items-center pt-20 overflow-hidden"
     >
-      {/* Background Gradient */}
-      <div className="absolute inset-0 gradient-hero opacity-10"></div>
+      {/* Background Effects */}
+      <div className="absolute inset-0 gradient-mesh"></div>
+      <div className="absolute inset-0 bg-background/80"></div>
+      
+      {/* Floating Shapes */}
+      <div className="absolute top-20 right-10 w-72 h-72 bg-accent/20 rounded-full blur-3xl animate-float"></div>
+      <div className="absolute bottom-20 left-10 w-96 h-96 bg-primary/20 rounded-full blur-3xl animate-float" style={{ animationDelay: '2s' }}></div>
       
       <div className="container mx-auto px-4 relative z-10">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
@@ -90,12 +95,15 @@ const Hero = () => {
           {/* Right Image */}
           <div className="relative lg:block animate-fade-in-up">
             <div className="relative">
-              <div className="absolute -inset-4 gradient-gold opacity-20 blur-3xl rounded-full"></div>
-              <img
-                src={heroImage}
-                alt="Adam Mahamat - Professeur de langues"
-                className="relative rounded-3xl shadow-large w-full object-cover"
-              />
+              <div className="absolute -inset-4 gradient-gold opacity-30 blur-3xl rounded-full animate-pulse"></div>
+              <div className="relative overflow-hidden rounded-3xl shadow-glow">
+                <div className="absolute inset-0 bg-gradient-to-tr from-accent/20 to-primary/20 mix-blend-overlay"></div>
+                <img
+                  src={heroImage}
+                  alt="Adam Mahamat - Professeur de langues"
+                  className="relative w-full object-cover"
+                />
+              </div>
             </div>
           </div>
         </div>

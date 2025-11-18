@@ -85,12 +85,15 @@ const Pricing = () => {
           {plans.map((plan, index) => (
             <Card
               key={index}
-              className={`relative animate-fade-in-up hover:shadow-large transition-smooth ${
+              className={`relative animate-fade-in-up transition-smooth overflow-hidden ${
                 plan.popular
-                  ? "border-2 border-accent shadow-gold scale-105 md:scale-110"
-                  : "border-2 border-border"
+                  ? "glass-card border-2 border-accent shadow-glow scale-105 md:scale-110"
+                  : "glass-card border-2 border-border hover:shadow-large"
               }`}
             >
+              {plan.popular && (
+                <div className="absolute inset-0 bg-gradient-to-br from-accent/10 to-primary/10 animate-gradient"></div>
+              )}
               {plan.popular && (
                 <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-accent text-accent-foreground px-4 py-1 rounded-full text-sm font-bold shadow-gold">
                   ⭐ Plus Populaire
