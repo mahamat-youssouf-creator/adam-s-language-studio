@@ -12,56 +12,56 @@ const Pricing = () => {
 
   const plans = [
     {
-      name: "Cours Individuel",
+      name: "Single Lesson",
       price: "£45",
-      period: "par heure",
-      description: "Parfait pour commencer et tester",
+      period: "per hour",
+      description: "Perfect to start and test",
       features: [
-        "1 cours d'une heure",
-        "Contenu personnalisé",
-        "Supports de cours inclus",
-        "Suivi par email",
-        "Annulation 24h avant",
+        "1 hour lesson",
+        "Personalized content",
+        "Course materials included",
+        "Email follow-up",
+        "24h cancellation",
       ],
       icon: Star,
       popular: false,
-      ctaText: "Réserver maintenant",
+      ctaText: "Book now",
     },
     {
-      name: "Pack 5 Séances",
+      name: "5 Session Pack",
       price: "£200",
-      period: "soit £40/heure",
-      description: "Le choix idéal pour progresser",
+      period: "£40/hour",
+      description: "The ideal choice for progress",
       features: [
-        "5 cours d'une heure",
-        "Programme personnalisé",
-        "Supports de cours inclus",
-        "Suivi régulier",
-        "Flexibilité de planning",
-        "Économie de £25",
+        "5 one-hour lessons",
+        "Personalized program",
+        "Course materials included",
+        "Regular follow-up",
+        "Flexible scheduling",
+        "£25 savings",
       ],
       icon: Zap,
       popular: true,
-      ctaText: "Choisir ce pack",
+      ctaText: "Choose this pack",
     },
     {
-      name: "Pack 10 Séances",
+      name: "10 Session Pack",
       price: "£350",
-      period: "soit £35/heure",
-      description: "La meilleure offre pour exceller",
+      period: "£35/hour",
+      description: "Best offer to excel",
       features: [
-        "10 cours d'une heure",
-        "Programme sur mesure",
-        "Tous supports inclus",
-        "Suivi approfondi",
-        "Priorité de planning",
-        "Évaluation de progrès",
-        "Économie de £100",
-        "Garantie satisfaction",
+        "10 one-hour lessons",
+        "Custom program",
+        "All materials included",
+        "In-depth follow-up",
+        "Priority scheduling",
+        "Progress evaluation",
+        "£100 savings",
+        "Satisfaction guarantee",
       ],
       icon: Star,
       popular: false,
-      ctaText: "Meilleure offre",
+      ctaText: "Best offer",
     },
   ];
 
@@ -70,14 +70,13 @@ const Pricing = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 animate-fade-in-up">
           <span className="text-accent font-semibold text-sm uppercase tracking-wider">
-            Tarifs
+            Pricing
           </span>
           <h2 className="font-heading text-3xl md:text-4xl lg:text-5xl font-bold mt-2 mb-4">
-            Des Formules Adaptées à Votre Budget
+            Plans Adapted to Your Budget
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            Choisissez la formule qui vous convient. Tous les packs incluent le premier cours
-            d'essai gratuit.
+            Choose the plan that suits you. All packs include the first free trial lesson.
           </p>
         </div>
 
@@ -96,7 +95,7 @@ const Pricing = () => {
               )}
               {plan.popular && (
                 <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-accent text-accent-foreground px-4 py-1 rounded-full text-sm font-bold shadow-gold">
-                  ⭐ Plus Populaire
+                  ⭐ Most Popular
                 </div>
               )}
 
@@ -166,11 +165,11 @@ const Pricing = () => {
         <div className="mt-16 text-center">
           <div className="inline-block bg-card rounded-2xl shadow-medium px-8 py-6 max-w-2xl">
             <h4 className="font-heading text-xl font-bold mb-2">
-              🎁 Offre Spéciale Nouveaux Élèves
+              🎁 Special Offer for New Students
             </h4>
             <p className="text-muted-foreground">
-              Profitez d'un cours d'essai gratuit de 30 minutes pour découvrir ma méthode et
-              définir ensemble vos objectifs d'apprentissage.
+              Get a free 30-minute trial lesson to discover my method and define
+              your learning goals together.
             </p>
           </div>
         </div>
