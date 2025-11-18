@@ -68,9 +68,10 @@ const Services = () => {
           {services.map((service, index) => (
             <Card
               key={index}
-              className="group hover:shadow-large transition-smooth animate-fade-in-up border-2 hover:border-accent/50"
+              className="group glass-card hover:shadow-glow transition-smooth animate-fade-in-up border-2 hover:border-accent/50 overflow-hidden relative"
             >
-              <CardContent className="p-8">
+              <div className="absolute inset-0 bg-gradient-to-br from-accent/5 to-primary/5 opacity-0 group-hover:opacity-100 transition-smooth"></div>
+              <CardContent className="p-8 relative z-10">
                 {/* Icon & Title */}
                 <div className="flex items-start gap-4 mb-6">
                   <div

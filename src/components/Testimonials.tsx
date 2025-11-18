@@ -66,9 +66,10 @@ const Testimonials = () => {
           {testimonials.map((testimonial, index) => (
             <Card
               key={index}
-              className="animate-fade-in-up hover:shadow-large transition-smooth border-2 border-border hover:border-accent/30"
+              className="glass-card animate-fade-in-up hover:shadow-glow transition-smooth border-2 border-border hover:border-accent/50 group"
             >
-              <CardContent className="p-6">
+              <CardContent className="p-6 relative">
+                <div className="absolute top-0 right-0 w-24 h-24 bg-accent/10 rounded-full blur-2xl group-hover:bg-accent/20 transition-smooth"></div>
                 {/* Rating */}
                 <div className="flex gap-1 mb-4">
                   {[...Array(testimonial.rating)].map((_, i) => (

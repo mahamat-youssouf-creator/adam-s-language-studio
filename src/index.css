@@ -41,15 +41,19 @@ All colors MUST be HSL.
     --radius: 0.75rem;
 
     /* Gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(221 83% 33%), hsl(221 83% 25%));
-    --gradient-gold: linear-gradient(135deg, hsl(43 74% 53%), hsl(43 74% 45%));
-    --gradient-hero: linear-gradient(135deg, hsl(221 83% 33%) 0%, hsl(221 83% 25%) 50%, hsl(43 74% 53%) 100%);
+    --gradient-primary: linear-gradient(135deg, hsl(221 83% 53%), hsl(264 70% 50%));
+    --gradient-gold: linear-gradient(135deg, hsl(43 95% 58%), hsl(33 95% 54%));
+    --gradient-hero: linear-gradient(135deg, hsl(221 83% 33%) 0%, hsl(264 70% 50%) 50%, hsl(43 95% 58%) 100%);
+    --gradient-mesh: radial-gradient(at 40% 20%, hsl(221 83% 53% / 0.3) 0px, transparent 50%),
+                     radial-gradient(at 80% 0%, hsl(264 70% 50% / 0.3) 0px, transparent 50%),
+                     radial-gradient(at 0% 50%, hsl(43 95% 58% / 0.3) 0px, transparent 50%);
 
     /* Shadows */
     --shadow-subtle: 0 2px 8px hsl(221 83% 33% / 0.08);
-    --shadow-medium: 0 4px 16px hsl(221 83% 33% / 0.12);
-    --shadow-large: 0 8px 32px hsl(221 83% 33% / 0.16);
-    --shadow-gold: 0 4px 20px hsl(43 74% 53% / 0.3);
+    --shadow-medium: 0 8px 24px hsl(221 83% 33% / 0.15);
+    --shadow-large: 0 20px 40px hsl(221 83% 33% / 0.2);
+    --shadow-gold: 0 8px 32px hsl(43 95% 58% / 0.4);
+    --shadow-glow: 0 0 40px hsl(43 95% 58% / 0.6);
 
     /* Transitions */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
@@ -114,6 +118,16 @@ All colors MUST be HSL.
     background: var(--gradient-hero);
   }
 
+  .gradient-mesh {
+    background: var(--gradient-mesh);
+  }
+
+  .glass-card {
+    background: hsl(var(--card) / 0.7);
+    backdrop-filter: blur(20px);
+    border: 1px solid hsl(var(--border) / 0.3);
+  }
+
   .shadow-subtle {
     box-shadow: var(--shadow-subtle);
   }
@@ -130,6 +144,10 @@ All colors MUST be HSL.
     box-shadow: var(--shadow-gold);
   }
 
+  .shadow-glow {
+    box-shadow: var(--shadow-glow);
+  }
+
   .transition-smooth {
     transition: var(--transition-smooth);
   }
@@ -142,6 +160,15 @@ All colors MUST be HSL.
     animation: fadeInUp 0.6s ease-out;
   }
 
+  .animate-float {
+    animation: float 6s ease-in-out infinite;
+  }
+
+  .animate-gradient {
+    animation: gradient 8s ease infinite;
+    background-size: 200% 200%;
+  }
+
   @keyframes fadeInUp {
     from {
       opacity: 0;
@@ -150,6 +177,24 @@ All colors MUST be HSL.
     to {
       opacity: 1;
       transform: translateY(0);
+    }
+  }
+
+  @keyframes float {
+    0%, 100% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+  }
+
+  @keyframes gradient {
+    0%, 100% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
     }
   }
 }
