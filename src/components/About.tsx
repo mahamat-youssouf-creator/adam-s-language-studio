@@ -5,28 +5,28 @@ const About = () => {
   const highlights = [
     {
       icon: BookOpen,
-      title: "Diplômes Certifiés",
-      description: "Master en Linguistique et certifications TESOL/TEFL",
+      title: "Certified Degrees",
+      description: "Master's in Linguistics and TESOL/TEFL certifications",
     },
     {
       icon: Award,
-      title: "Méthode Éprouvée",
-      description: "Approche communicative et immersive adaptée à chaque élève",
+      title: "Proven Method",
+      description: "Communicative and immersive approach adapted to each student",
     },
     {
       icon: Target,
-      title: "Résultats Garantis",
-      description: "98% des élèves atteignent leurs objectifs en 6 mois",
+      title: "Guaranteed Results",
+      description: "98% of students achieve their goals within 6 months",
     },
   ];
 
   const qualifications = [
-    "Master en Linguistique Appliquée",
-    "Certification TESOL (Teaching English to Speakers of Other Languages)",
-    "Certification TEFL (Teaching English as a Foreign Language)",
-    "Diplôme en Études Arabes Classiques",
-    "Spécialisation en Arabe Coranique et Tajweed",
-    "Plus de 10 ans d'expérience en enseignement",
+    "Master's in Applied Linguistics",
+    "TESOL Certification (Teaching English to Speakers of Other Languages)",
+    "TEFL Certification (Teaching English as a Foreign Language)",
+    "Diploma in Classical Arabic Studies",
+    "Specialization in Quranic Arabic and Tajweed",
+    "Over 10 years of teaching experience",
   ];
 
   return (
@@ -34,13 +34,13 @@ const About = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 animate-fade-in-up">
           <span className="text-accent font-semibold text-sm uppercase tracking-wider">
-            À Propos
+            About Me
           </span>
           <h2 className="font-heading text-3xl md:text-4xl lg:text-5xl font-bold mt-2 mb-4">
-            Votre Partenaire pour la Maîtrise des Langues
+            Your Partner in Language Mastery
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            Passionné par l'enseignement, je mets mon expertise au service de votre réussite
+            Passionate about teaching, I put my expertise at the service of your success
           </p>
         </div>
 
@@ -49,7 +49,7 @@ const About = () => {
           <div className="animate-fade-in-up">
             <img
               src={teachingImage}
-              alt="Séance d'enseignement en ligne"
+              alt="Online teaching session"
               className="rounded-3xl shadow-large w-full object-cover"
             />
           </div>
@@ -57,17 +57,17 @@ const About = () => {
           {/* Content */}
           <div className="animate-fade-in-up">
             <h3 className="font-heading text-2xl md:text-3xl font-bold mb-6">
-              Adam Mahamat - Professeur de Langues Certifié
+              Adam Mahamat - Certified Language Teacher
             </h3>
             <p className="text-muted-foreground mb-6 leading-relaxed">
-              Basé à Londres depuis plus de 10 ans, je suis un professeur passionné spécialisé
-              dans l'enseignement de l'arabe et de l'anglais. Ma mission est de rendre
-              l'apprentissage des langues accessible, efficace et agréable pour tous mes élèves.
+              Based in London for over 10 years, I am a passionate teacher specializing
+              in teaching Arabic and English. My mission is to make language learning
+              accessible, effective and enjoyable for all my students.
             </p>
             <p className="text-muted-foreground mb-8 leading-relaxed">
-              Que vous soyez débutant complet ou que vous souhaitiez perfectionner vos
-              compétences, j'adapte ma méthode à votre profil et vos objectifs. Mon approche
-              communicative privilégie la pratique orale et met l'accent sur la confiance en soi.
+              Whether you are a complete beginner or want to perfect your skills, I adapt
+              my method to your profile and goals. My communicative approach emphasizes
+              oral practice and focuses on building confidence.
             </p>
 
             {/* Highlights */}

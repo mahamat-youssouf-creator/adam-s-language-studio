@@ -5,46 +5,46 @@ const Services = () => {
   const services = [
     {
       icon: BookOpen,
-      title: "Cours d'Arabe",
-      subtitle: "Débutant à Avancé",
+      title: "Arabic Lessons",
+      subtitle: "Beginner to Advanced",
       description:
-        "Apprenez l'arabe moderne standard ou dialectal avec une méthode progressive adaptée à votre niveau. Développez vos compétences en lecture, écriture, conversation et compréhension.",
-      features: ["Alphabet et phonétique", "Grammaire progressive", "Conversation courante", "Vocabulaire thématique"],
-      duration: "1h par session",
-      format: "En ligne ou présentiel",
+        "Learn Modern Standard or Dialectal Arabic with a progressive method adapted to your level. Develop your reading, writing, conversation and comprehension skills.",
+      features: ["Alphabet and phonetics", "Progressive grammar", "Everyday conversation", "Thematic vocabulary"],
+      duration: "1h per session",
+      format: "Online or in-person",
       color: "primary",
     },
     {
       icon: GraduationCap,
-      title: "Cours d'Anglais",
-      subtitle: "Tous Niveaux",
+      title: "English Lessons",
+      subtitle: "All Levels",
       description:
-        "Améliorez votre anglais professionnel ou conversationnel avec des cours interactifs. Perfectionnez votre prononciation, votre grammaire et votre aisance à l'oral.",
-      features: ["Speaking & Listening", "Business English", "Grammaire avancée", "Préparation entretiens"],
-      duration: "1h par session",
-      format: "En ligne ou présentiel",
+        "Improve your professional or conversational English with interactive lessons. Perfect your pronunciation, grammar and fluency.",
+      features: ["Speaking & Listening", "Business English", "Advanced grammar", "Interview preparation"],
+      duration: "1h per session",
+      format: "Online or in-person",
       color: "accent",
     },
     {
       icon: BookMarked,
-      title: "Arabe Coranique & Classique",
-      subtitle: "Programme Spécialisé",
+      title: "Quranic & Classical Arabic",
+      subtitle: "Specialized Program",
       description:
-        "Étudiez l'arabe coranique avec une approche respectueuse et académique. Apprenez les règles de Tajweed et la compréhension des textes classiques.",
-      features: ["Lecture coranique (Tajweed)", "Mémorisation guidée", "Compréhension textuelle", "Arabe classique"],
-      duration: "1h par session",
-      format: "En ligne ou présentiel",
+        "Study Quranic Arabic with a respectful and academic approach. Learn Tajweed rules and understanding of classical texts.",
+      features: ["Quranic reading (Tajweed)", "Guided memorization", "Textual understanding", "Classical Arabic"],
+      duration: "1h per session",
+      format: "Online or in-person",
       color: "primary",
     },
     {
       icon: FileCheck,
-      title: "Préparation aux Examens",
+      title: "Exam Preparation",
       subtitle: "IELTS, TOEFL, Cambridge",
       description:
-        "Préparez-vous efficacement aux tests de langue avec des exercices ciblés, des simulations d'examen et des stratégies éprouvées pour maximiser votre score.",
-      features: ["Tests blancs", "Stratégies d'examen", "Correction détaillée", "Suivi personnalisé"],
-      duration: "1h30 par session",
-      format: "En ligne ou présentiel",
+        "Prepare effectively for language tests with targeted exercises, mock exams and proven strategies to maximize your score.",
+      features: ["Practice tests", "Exam strategies", "Detailed correction", "Personalized follow-up"],
+      duration: "1h30 per session",
+      format: "Online or in-person",
       color: "accent",
     },
   ];
@@ -54,13 +54,13 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 animate-fade-in-up">
           <span className="text-accent font-semibold text-sm uppercase tracking-wider">
-            Mes Services
+            My Services
           </span>
           <h2 className="font-heading text-3xl md:text-4xl lg:text-5xl font-bold mt-2 mb-4">
-            Des Cours Adaptés à Vos Besoins
+            Lessons Tailored to Your Needs
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            Choisissez le programme qui correspond à vos objectifs d'apprentissage
+            Choose the program that matches your learning goals
           </p>
         </div>
 
@@ -125,7 +125,7 @@ const Services = () => {
         <div className="mt-12 text-center">
           <div className="inline-block bg-accent/10 rounded-2xl px-6 py-4">
             <p className="text-accent font-semibold">
-              ✨ Première séance d'essai gratuite pour tous les nouveaux élèves
+              ✨ First trial lesson free for all new students
             </p>
           </div>
         </div>

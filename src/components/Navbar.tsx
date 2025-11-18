@@ -23,11 +23,11 @@ const Navbar = () => {
   };
 
   const navLinks = [
-    { label: "Accueil", id: "hero" },
-    { label: "À Propos", id: "about" },
+    { label: "Home", id: "hero" },
+    { label: "About", id: "about" },
     { label: "Services", id: "services" },
-    { label: "Tarifs", id: "pricing" },
-    { label: "Témoignages", id: "testimonials" },
+    { label: "Pricing", id: "pricing" },
+    { label: "Testimonials", id: "testimonials" },
     { label: "Contact", id: "contact" },
   ];
 
@@ -52,7 +52,7 @@ const Navbar = () => {
               <div className="font-heading font-bold text-lg text-foreground">
                 Adam Mahamat
               </div>
-              <div className="text-xs text-muted-foreground">Professeur de Langues</div>
+              <div className="text-xs text-muted-foreground">Language Teacher</div>
             </div>
           </button>
 
@@ -76,7 +76,7 @@ const Navbar = () => {
               size="lg"
               onClick={() => scrollToSection("contact")}
             >
-              Essai Gratuit
+              Free Trial
             </Button>
           </div>
 
@@ -109,7 +109,7 @@ const Navbar = () => {
               onClick={() => scrollToSection("contact")}
               className="w-full"
             >
-              Essai Gratuit
+              Free Trial
             </Button>
           </div>
         </div>

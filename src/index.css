@@ -9,27 +9,27 @@ All colors MUST be HSL.
 @layer base {
   :root {
     --background: 0 0% 100%;
-    --foreground: 221 83% 20%;
+    --foreground: 222 47% 11%;
 
     --card: 0 0% 100%;
-    --card-foreground: 221 83% 20%;
+    --card-foreground: 222 47% 11%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 221 83% 20%;
+    --popover-foreground: 222 47% 11%;
 
-    /* Navy Blue Primary */
-    --primary: 221 83% 33%;
+    /* Modern Cyan Primary */
+    --primary: 189 94% 43%;
     --primary-foreground: 0 0% 100%;
 
-    /* Gold Accent */
-    --secondary: 43 74% 53%;
-    --secondary-foreground: 221 83% 20%;
+    /* Vibrant Purple Accent */
+    --secondary: 271 91% 65%;
+    --secondary-foreground: 0 0% 100%;
 
-    --muted: 220 13% 95%;
-    --muted-foreground: 220 9% 46%;
+    --muted: 210 40% 96%;
+    --muted-foreground: 215 16% 47%;
 
-    --accent: 43 74% 53%;
-    --accent-foreground: 221 83% 20%;
+    --accent: 271 91% 65%;
+    --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
@@ -41,19 +41,19 @@ All colors MUST be HSL.
     --radius: 0.75rem;
 
     /* Gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(221 83% 53%), hsl(264 70% 50%));
-    --gradient-gold: linear-gradient(135deg, hsl(43 95% 58%), hsl(33 95% 54%));
-    --gradient-hero: linear-gradient(135deg, hsl(221 83% 33%) 0%, hsl(264 70% 50%) 50%, hsl(43 95% 58%) 100%);
-    --gradient-mesh: radial-gradient(at 40% 20%, hsl(221 83% 53% / 0.3) 0px, transparent 50%),
-                     radial-gradient(at 80% 0%, hsl(264 70% 50% / 0.3) 0px, transparent 50%),
-                     radial-gradient(at 0% 50%, hsl(43 95% 58% / 0.3) 0px, transparent 50%);
+    --gradient-primary: linear-gradient(135deg, hsl(189 94% 43%), hsl(271 91% 65%));
+    --gradient-gold: linear-gradient(135deg, hsl(271 91% 65%), hsl(327 73% 62%));
+    --gradient-hero: linear-gradient(135deg, hsl(189 94% 43%) 0%, hsl(271 91% 65%) 50%, hsl(327 73% 62%) 100%);
+    --gradient-mesh: radial-gradient(at 40% 20%, hsl(189 94% 43% / 0.3) 0px, transparent 50%),
+                     radial-gradient(at 80% 0%, hsl(271 91% 65% / 0.3) 0px, transparent 50%),
+                     radial-gradient(at 0% 50%, hsl(327 73% 62% / 0.3) 0px, transparent 50%);
 
     /* Shadows */
-    --shadow-subtle: 0 2px 8px hsl(221 83% 33% / 0.08);
-    --shadow-medium: 0 8px 24px hsl(221 83% 33% / 0.15);
-    --shadow-large: 0 20px 40px hsl(221 83% 33% / 0.2);
-    --shadow-gold: 0 8px 32px hsl(43 95% 58% / 0.4);
-    --shadow-glow: 0 0 40px hsl(43 95% 58% / 0.6);
+    --shadow-subtle: 0 2px 8px hsl(189 94% 43% / 0.08);
+    --shadow-medium: 0 8px 24px hsl(189 94% 43% / 0.15);
+    --shadow-large: 0 20px 40px hsl(189 94% 43% / 0.2);
+    --shadow-gold: 0 8px 32px hsl(271 91% 65% / 0.4);
+    --shadow-glow: 0 0 40px hsl(271 91% 65% / 0.6);
 
     /* Transitions */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
@@ -61,33 +61,33 @@ All colors MUST be HSL.
   }
 
   .dark {
-    --background: 221 83% 12%;
-    --foreground: 0 0% 98%;
+    --background: 222 47% 11%;
+    --foreground: 210 40% 98%;
 
-    --card: 221 83% 15%;
-    --card-foreground: 0 0% 98%;
+    --card: 222 47% 15%;
+    --card-foreground: 210 40% 98%;
 
-    --popover: 221 83% 15%;
-    --popover-foreground: 0 0% 98%;
+    --popover: 222 47% 15%;
+    --popover-foreground: 210 40% 98%;
 
-    --primary: 43 74% 53%;
-    --primary-foreground: 221 83% 20%;
+    --primary: 189 94% 43%;
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 221 83% 25%;
-    --secondary-foreground: 0 0% 98%;
+    --secondary: 271 91% 65%;
+    --secondary-foreground: 0 0% 100%;
 
-    --muted: 221 83% 20%;
-    --muted-foreground: 220 9% 65%;
+    --muted: 217 33% 17%;
+    --muted-foreground: 215 20% 65%;
 
-    --accent: 43 74% 53%;
-    --accent-foreground: 221 83% 20%;
+    --accent: 271 91% 65%;
+    --accent-foreground: 0 0% 100%;
 
     --destructive: 0 62% 50%;
-    --destructive-foreground: 0 0% 98%;
+    --destructive-foreground: 210 40% 98%;
 
-    --border: 221 83% 20%;
-    --input: 221 83% 20%;
-    --ring: 43 74% 53%;
+    --border: 217 33% 20%;
+    --input: 217 33% 20%;
+    --ring: 271 91% 65%;
   }
 }
 
