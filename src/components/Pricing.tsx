@@ -70,13 +70,14 @@ const Pricing = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 animate-fade-in-up">
           <span className="text-accent font-semibold text-sm uppercase tracking-wider">
-            Pricing
+            Tarifs
           </span>
           <h2 className="font-heading text-3xl md:text-4xl lg:text-5xl font-bold mt-2 mb-4">
-            Packages Adapted to Your Budget
+            Des Formules Adaptées à Votre Budget
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            Choose the package that suits you. All packages include the first free trial lesson.
+            Choisissez la formule qui vous convient. Tous les packs incluent le premier cours
+            d'essai gratuit.
           </p>
         </div>
 
@@ -86,13 +87,13 @@ const Pricing = () => {
               key={index}
               className={`relative animate-fade-in-up hover:shadow-large transition-smooth ${
                 plan.popular
-                  ? "border-2 border-accent shadow-cyan scale-105 md:scale-110 bg-card/50 backdrop-blur"
+                  ? "border-2 border-accent shadow-gold scale-105 md:scale-110"
                   : "border-2 border-border"
               }`}
             >
               {plan.popular && (
-                <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-accent text-accent-foreground px-4 py-1 rounded-full text-sm font-bold shadow-cyan">
-                  ⭐ Most Popular
+                <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-accent text-accent-foreground px-4 py-1 rounded-full text-sm font-bold shadow-gold">
+                  ⭐ Plus Populaire
                 </div>
               )}
 
@@ -162,11 +163,11 @@ const Pricing = () => {
         <div className="mt-16 text-center">
           <div className="inline-block bg-card rounded-2xl shadow-medium px-8 py-6 max-w-2xl">
             <h4 className="font-heading text-xl font-bold mb-2">
-              🎁 Special Offer for New Students
+              🎁 Offre Spéciale Nouveaux Élèves
             </h4>
             <p className="text-muted-foreground">
-              Enjoy a free 30-minute trial lesson to discover my method and
-              set your learning goals together.
+              Profitez d'un cours d'essai gratuit de 30 minutes pour découvrir ma méthode et
+              définir ensemble vos objectifs d'apprentissage.
             </p>
           </div>
         </div>

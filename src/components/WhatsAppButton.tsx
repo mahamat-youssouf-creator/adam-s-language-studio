@@ -6,7 +6,7 @@ const WhatsAppButton = () => {
     // Replace with actual WhatsApp number
     const phoneNumber = "447XXXXXXXX";
     const message = encodeURIComponent(
-      "Hello Adam, I would like to know more about your language courses."
+      "Bonjour Adam, je souhaite en savoir plus sur vos cours de langues."
     );
     window.open(`https://wa.me/${phoneNumber}?text=${message}`, "_blank");
   };

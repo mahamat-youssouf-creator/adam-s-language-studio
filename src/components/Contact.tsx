@@ -25,8 +25,8 @@ const Contact = () => {
     await new Promise((resolve) => setTimeout(resolve, 1000));
 
     toast({
-      title: "Message sent!",
-      description: "I'll get back to you as soon as possible. Thank you!",
+      title: "Message envoyé !",
+      description: "Je vous répondrai dans les plus brefs délais. Merci !",
     });
 
     setIsSubmitting(false);
