@@ -4,47 +4,47 @@ import { BookOpen, GraduationCap, BookMarked, FileCheck, Clock, MapPin } from "l
 const Services = () => {
   const services = [
     {
-      icon: BookOpen,
-      title: "Arabic Lessons",
-      subtitle: "Beginner to Advanced",
+      icon: BookMarked,
+      title: "Qur'an Recitation",
+      subtitle: "Tajweed & Proper Pronunciation",
       description:
-        "Learn Modern Standard or Dialectal Arabic with a progressive method adapted to your level. Develop your reading, writing, conversation and comprehension skills.",
-      features: ["Alphabet and phonetics", "Progressive grammar", "Everyday conversation", "Thematic vocabulary"],
+        "Learn to recite the Qur'an correctly with proper Tajweed rules. Master the pronunciation, rhythm, and melody of Qur'anic recitation under expert guidance.",
+      features: ["Tajweed rules mastery", "Pronunciation correction", "Recitation practice", "Memorization techniques"],
       duration: "1h per session",
-      format: "Online or in-person",
+      format: "Online via Zoom/Skype",
       color: "primary",
     },
     {
-      icon: GraduationCap,
-      title: "English Lessons",
-      subtitle: "All Levels",
+      icon: BookOpen,
+      title: "Qur'an Memorization",
+      subtitle: "Hifz Program",
       description:
-        "Improve your professional or conversational English with interactive lessons. Perfect your pronunciation, grammar and fluency.",
-      features: ["Speaking & Listening", "Business English", "Advanced grammar", "Interview preparation"],
+        "Structured Hifz program designed to help you memorize the Qur'an effectively. Personalized pace with proven memorization and retention techniques.",
+      features: ["Personalized memorization plan", "Regular revision schedule", "Progress tracking", "One-on-one support"],
       duration: "1h per session",
-      format: "Online or in-person",
+      format: "Online via Zoom/Skype",
       color: "accent",
     },
     {
-      icon: BookMarked,
-      title: "Quranic & Classical Arabic",
-      subtitle: "Specialized Program",
+      icon: GraduationCap,
+      title: "Islamic Studies",
+      subtitle: "Principles & Values",
       description:
-        "Study Quranic Arabic with a respectful and academic approach. Learn Tajweed rules and understanding of classical texts.",
-      features: ["Quranic reading (Tajweed)", "Guided memorization", "Textual understanding", "Classical Arabic"],
+        "Comprehensive Islamic education covering fundamental beliefs, practices, ethics, and values. Learn authentic Islamic knowledge with proper understanding.",
+      features: ["Islamic beliefs (Aqeedah)", "Islamic jurisprudence (Fiqh)", "Prophetic traditions", "Islamic ethics & values"],
       duration: "1h per session",
-      format: "Online or in-person",
+      format: "Online via Zoom/Skype",
       color: "primary",
     },
     {
       icon: FileCheck,
-      title: "Exam Preparation",
-      subtitle: "IELTS, TOEFL, Cambridge",
+      title: "Arabic Language",
+      subtitle: "For Qur'an Understanding",
       description:
-        "Prepare effectively for language tests with targeted exercises, mock exams and proven strategies to maximize your score.",
-      features: ["Practice tests", "Exam strategies", "Detailed correction", "Personalized follow-up"],
-      duration: "1h30 per session",
-      format: "Online or in-person",
+        "Learn Classical Arabic to understand the Qur'an directly. Focus on grammar, vocabulary, and sentence structure relevant to Qur'anic texts.",
+      features: ["Qur'anic Arabic grammar", "Vocabulary building", "Text comprehension", "Translation practice"],
+      duration: "1h per session",
+      format: "Online via Zoom/Skype",
       color: "accent",
     },
   ];
@@ -57,10 +57,10 @@ const Services = () => {
             My Services
           </span>
           <h2 className="font-heading text-3xl md:text-4xl lg:text-5xl font-bold mt-2 mb-4">
-            Lessons Tailored to Your Needs
+            Comprehensive Qur'anic & Islamic Education
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            Choose the program that matches your learning goals
+            Choose the program that matches your spiritual learning journey
           </p>
         </div>
 

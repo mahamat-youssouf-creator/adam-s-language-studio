@@ -28,17 +28,17 @@ const Hero = () => {
           {/* Left Content */}
           <div className="animate-fade-in-up">
             <div className="inline-block mb-4 px-4 py-2 bg-accent/10 rounded-full">
-              <span className="text-accent font-semibold">🎓 Based in London</span>
+              <span className="text-accent font-semibold">🕌 Online Qur'an & Islamic Studies</span>
             </div>
             
             <h1 className="font-heading text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-              Master <span className="text-primary">Arabic</span> and{" "}
-              <span className="text-accent">English</span> with an Experienced Teacher
+              Learn the <span className="text-primary">Qur'an</span> and{" "}
+              <span className="text-accent">Islamic Values</span> with Expert Guidance
             </h1>
             
             <p className="text-lg text-muted-foreground mb-8 max-w-xl">
-              Personalized lessons tailored to your level and goals. Learn with
-              confidence through a proven method and guaranteed results.
+              Master's in Islamic Studies with 15 years of teaching experience. 
+              Personalized online lessons in Qur'an recitation, Tajweed, and Islamic principles.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 mb-12">
@@ -65,7 +65,7 @@ const Hero = () => {
                 <div className="flex items-center justify-center mb-2">
                   <Calendar className="text-accent" size={24} />
                 </div>
-                <div className="font-bold text-2xl text-foreground">10+</div>
+                <div className="font-bold text-2xl text-foreground">15+</div>
                 <div className="text-sm text-muted-foreground">Years experience</div>
               </div>
               <div className="text-center">
