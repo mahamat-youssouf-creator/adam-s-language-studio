@@ -5,28 +5,29 @@ const About = () => {
   const highlights = [
     {
       icon: BookOpen,
-      title: "Certified Degrees",
-      description: "Master's in Linguistics and TESOL/TEFL certifications",
+      title: "Advanced Degrees",
+      description: "Master's in Islamic Studies & Bachelor of Education (B.Ed.)",
     },
     {
       icon: Award,
-      title: "Proven Method",
-      description: "Communicative and immersive approach adapted to each student",
+      title: "Professional Training",
+      description: "Certified teacher with specialized Qur'an teaching methodology",
     },
     {
       icon: Target,
-      title: "Guaranteed Results",
-      description: "98% of students achieve their goals within 6 months",
+      title: "Proven Experience",
+      description: "15 years guiding students in Qur'anic studies and Islamic principles",
     },
   ];
 
   const qualifications = [
-    "Master's in Applied Linguistics",
-    "TESOL Certification (Teaching English to Speakers of Other Languages)",
-    "TEFL Certification (Teaching English as a Foreign Language)",
-    "Diploma in Classical Arabic Studies",
-    "Specialization in Quranic Arabic and Tajweed",
-    "Over 10 years of teaching experience",
+    "Master's Degree in Islamic Studies",
+    "Bachelor of Education (B.Ed.)",
+    "Professional Teacher Training Certificate",
+    "Specialization in Qur'anic Recitation and Tajweed",
+    "Expert in Islamic Values and Principles",
+    "Fluent in English and Arabic",
+    "15 years of teaching experience",
   ];
 
   return (
@@ -57,17 +58,18 @@ const About = () => {
           {/* Content */}
           <div className="animate-fade-in-up">
             <h3 className="font-heading text-2xl md:text-3xl font-bold mb-6">
-              Adam Mahamat - Certified Language Teacher
+              Adam Mahamat - Qur'an & Islamic Studies Teacher
             </h3>
             <p className="text-muted-foreground mb-6 leading-relaxed">
-              Based in London for over 10 years, I am a passionate teacher specializing
-              in teaching Arabic and English. My mission is to make language learning
-              accessible, effective and enjoyable for all my students.
+              With a Master's in Islamic Studies and a Bachelor of Education, I bring 
+              15 years of experience in teaching the Qur'an and Islamic values online. 
+              My mission is to guide learners in their spiritual journey with proper 
+              understanding and authentic knowledge.
             </p>
             <p className="text-muted-foreground mb-8 leading-relaxed">
-              Whether you are a complete beginner or want to perfect your skills, I adapt
-              my method to your profile and goals. My communicative approach emphasizes
-              oral practice and focuses on building confidence.
+              Whether you are a beginner seeking to learn Qur'anic recitation or looking 
+              to deepen your understanding of Islamic principles, I provide personalized 
+              instruction in both English and Arabic, adapted to your learning pace and goals.
             </p>
 
             {/* Highlights */}
