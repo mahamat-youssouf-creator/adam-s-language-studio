@@ -45,14 +45,14 @@ const Navbar = () => {
             onClick={() => scrollToSection("hero")}
             className="flex items-center gap-2 hover:opacity-80 transition-smooth"
           >
-            <div className="w-10 h-10 rounded-full bg-accent flex items-center justify-center">
-              <span className="text-accent-foreground font-bold text-xl">AM</span>
+            <div className="w-12 h-12 rounded-full bg-accent flex items-center justify-center">
+              <span className="text-accent-foreground font-bold text-xl">TA</span>
             </div>
             <div className="hidden md:block">
               <div className="font-heading font-bold text-lg text-foreground">
-                Adam Mahamat
+                Tordjok Academy
               </div>
-              <div className="text-xs text-muted-foreground">Language Teacher</div>
+              <div className="text-xs text-muted-foreground">Qur'an & Islamic Studies</div>
             </div>
           </button>
 
