@@ -31,23 +31,23 @@ const Hero = () => {
               <span className="text-accent font-semibold">🕌 Online Qur'an & Islamic Studies</span>
             </div>
             
-            <h1 className="font-heading text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-              Learn the <span className="text-primary">Qur'an</span> and{" "}
-              <span className="text-accent">Islamic Values</span> with Expert Guidance
-            </h1>
-            
-            <p className="text-lg text-muted-foreground mb-8 max-w-xl">
-              Master's in Islamic Studies with 15 years of teaching experience. 
-              Personalized online lessons in Qur'an recitation, Tajweed, and Islamic principles.
-            </p>
+          <h1 className="font-heading text-4xl md:text-5xl lg:text-7xl font-bold mb-8 animate-fade-in leading-tight">
+            Learn Qur'an & Islamic Studies
+            <span className="block text-accent mt-4">with Expert Guidance</span>
+          </h1>
+          <p className="text-xl md:text-2xl text-muted-foreground mb-10 max-w-2xl animate-fade-in leading-relaxed">
+            Master Qur'anic recitation, memorization, and Islamic principles at Tordjok Academy. 
+            15 years of expertise teaching students worldwide.
+          </p>
 
-            <div className="flex flex-col sm:flex-row gap-4 mb-12">
+            <div className="flex flex-col sm:flex-row gap-6 mb-12">
               <Button
                 variant="hero"
                 size="xl"
                 onClick={() => scrollToSection("contact")}
+                className="shadow-glow"
               >
-                Book a Free Lesson
+                Start Free Trial
                 <ArrowRight className="ml-2" />
               </Button>
               <Button
@@ -55,7 +55,7 @@ const Hero = () => {
                 size="xl"
                 onClick={() => scrollToSection("services")}
               >
-                Explore Services
+                View Programs
               </Button>
             </div>
 
@@ -100,7 +100,7 @@ const Hero = () => {
                 <div className="absolute inset-0 bg-gradient-to-tr from-accent/20 to-primary/20 mix-blend-overlay"></div>
                 <img
                   src={heroImage}
-                  alt="Adam Mahamat - Language Teacher"
+                  alt="Qur'an Teacher - Tordjok Academy"
                   className="relative w-full object-cover"
                 />
               </div>
