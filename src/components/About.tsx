@@ -56,19 +56,21 @@ const About = () => {
           </div>
 
           {/* Content */}
-        <div className="lg:w-1/2 space-y-8">
-          <div className="space-y-4">
-            <span className="text-accent font-semibold text-sm uppercase tracking-wider">About Us</span>
-            <h2 className="font-heading text-3xl md:text-4xl lg:text-5xl font-bold leading-tight">
-              Your Path to Qur'anic Excellence
-            </h2>
-          </div>
-          <p className="text-lg text-muted-foreground leading-relaxed">
-            At Tordjok Academy, we provide expert online instruction in Qur'an and Islamic values. Our founder, Adam Mahamat, holds a Master's degree in Islamic Studies and a Bachelor of Education (B.Ed.), supported by professional teacher training and 15 years of teaching experience.
-          </p>
-          <p className="text-lg text-muted-foreground leading-relaxed">
-            Fluent in both English and Arabic, we create an immersive learning environment that helps students worldwide connect deeply with the Qur'an and Islamic teachings.
-          </p>
+          <div className="animate-fade-in-up">
+            <h3 className="font-heading text-2xl md:text-3xl font-bold mb-6">
+              Adam Mahamat - Qur'an & Islamic Studies Teacher
+            </h3>
+            <p className="text-muted-foreground mb-6 leading-relaxed">
+              With a Master's in Islamic Studies and a Bachelor of Education, I bring 
+              15 years of experience in teaching the Qur'an and Islamic values online. 
+              My mission is to guide learners in their spiritual journey with proper 
+              understanding and authentic knowledge.
+            </p>
+            <p className="text-muted-foreground mb-8 leading-relaxed">
+              Whether you are a beginner seeking to learn Qur'anic recitation or looking 
+              to deepen your understanding of Islamic principles, I provide personalized 
+              instruction in both English and Arabic, adapted to your learning pace and goals.
+            </p>
 
             {/* Highlights */}
             <div className="grid gap-6">

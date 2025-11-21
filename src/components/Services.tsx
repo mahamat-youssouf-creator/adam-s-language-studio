@@ -50,15 +50,17 @@ const Services = () => {
   ];
 
   return (
-    <section id="services" className="py-24 bg-muted/30">
+    <section id="services" className="py-20 bg-background">
       <div className="container mx-auto px-4">
-        <div className="text-center mb-20 space-y-4">
-          <span className="text-accent font-semibold text-sm uppercase tracking-wider">Our Services</span>
-          <h2 className="font-heading text-3xl md:text-4xl lg:text-5xl font-bold">
-            Comprehensive Islamic Education
+        <div className="text-center mb-16 animate-fade-in-up">
+          <span className="text-accent font-semibold text-sm uppercase tracking-wider">
+            My Services
+          </span>
+          <h2 className="font-heading text-3xl md:text-4xl lg:text-5xl font-bold mt-2 mb-4">
+            Comprehensive Qur'anic & Islamic Education
           </h2>
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            Personalized programs designed for learners at every level
+          <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
+            Choose the program that matches your spiritual learning journey
           </p>
         </div>
 
